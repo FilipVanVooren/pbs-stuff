@@ -204,7 +204,7 @@ def get_account_log(pbs_accountlog,queue):
 #------------------------------------------------------------------------------
 parser = argparse.ArgumentParser(
              description='PBS PRO Accounting log checker',
-             epilog='v1.0 by Filip van Vooren - G-FSI/ELC')
+             epilog='v1.0 by Filip van Vooren')
 
 parser.add_argument("accounting_log",    help="PBS Accounting log to process")
 parser.add_argument("-v", "--version",   help="Show script version")
